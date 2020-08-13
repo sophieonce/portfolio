@@ -1,0 +1,45 @@
+#particles-holder:before {
+    content: "";
+    background-color: rgba(26, 30, 35, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#particles-holder {
+    width: 100%;
+    height: 100vh;
+}
+
+.particles-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.txt-type {
+    color: var(--primary-color);
+}
+
+.txt-type>.txt {
+    border-right: 0.2rem solid #777;
+}
+
+@media (max-width: 1024px) {
+    #particles-holder {
+        height: 60vh;
+    }
+    #particles-holder:before {
+        height: 60vh;
+    }
+    .particles-overlay {
+        top: 30%;
+        left: 30%;
+        color: #fff;
+        transform: translate(-30%, -30%);
+    }
+}
