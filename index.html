@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="./fav.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+    <link rel="stylesheet" href="assets/css/utility.css" />
+    <link rel="stylesheet" href="assets/css/particles.css" />
+    <link rel="stylesheet" href="assets/css/nav.css" />
+    <link rel="stylesheet" href="assets/css/layout.css" />
+    <title>Hui Qian</title>
+</head>
+
+<body>
+    <!-- START HERE -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"> <img src="assets/images/logo.png" alt="Hui Qian"></a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home-section">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-section">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#expriences-section">Experiences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills-section">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-section">Contact</a>
+                    </li>
+                    <a class="btn btn-outline-success text-light btn-resume" href="" target="_blank">Resume</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <header id="home-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="particles-holder"></div>
+                <div class="particles-overlay">
+                    <h1>Hui Qian</h1>
+                    <h1><span class="txt-type" data-wait="3000" data-words='["Web Developer", "Web Designer"]'></span></h1>
+                    <h5>Seeking opportunities as Web Developer in Toronto</h5>
+                </div>
+                <span class="section-heading invisible"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about-section" class="py-5 text-muted">
+        <div class="container my-3">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-8 offset-2">
+                            <img class="img img-fluid mb-6 rounded-circle about-me-avatar" src="assets/images/about.png" alt="about me">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="text-divider"><span class="section-heading">About Me</span></h3>
+                    <p>Hello, I am Hui Qian. A Professional Web Application Developer, who enjoys building, learning and exploring things that live on the web.</p>
+                    <p>Core Competencies:</p>
+                    <p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <i class="fas fa-caret-right list-icon"></i><span>Web Development</span>
+                            </div>
+                            <div class="col-md-6">
+                                <i class="fas fa-caret-right list-icon"></i><span>User Experience Design</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <i class="fas fa-caret-right list-icon"></i><span>Database Management</span>
+                            </div>
+                            <div class="col-md-6">
+                                <i class="fas fa-caret-right list-icon"></i><span>Content Management</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <i class="fas fa-caret-right list-icon"></i><span>Lean / Agile</span>
+                            </div>
+                            <div class="col-md-6">
+                                <i class="fas fa-caret-right list-icon"></i><span>Version Control</span>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expriences Section -->
+    <section id="expriences-section" class="py-5 text-light hq-bg-dark">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-center"><span class="section-heading">Expriences</span></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mt-5">
+                    <div class="card">
+                        <div class="card-img-block">
+                            <img class="card-img-top" src="assets/images/maestro.jpg" alt="Maestro PMS">
+                        </div>
+                        <div class="card-body text-muted">
+                            <h4 class="card-title">Web Developer
+                                <span class="float-right external-link">
+                                    <a href="https://maestropms.com" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </span>
+                            </h4>
+                            <p class="card-text custom-card-text">
+                                <i class="fas fa-briefcase list-icon"></i></i>Maestro PMS</span><br />
+                                <i class="far fa-clock list-icon"></i>Feb. 2019 - Jan. 2020 <br />
+                                <i class="fas fa-map-marker-alt list-icon"></i></i>Markham, Ontario
+                            </p>
+                            <hr class="my-4">
+                            <span class="tec-hilight">Java</span>
+                            <span class="tec-hilight">Java Servlets</span>
+                            <span class="tec-hilight">JSP</span>
+                            <span class="tec-hilight">Postgres SQL</span>
+                            <span class="tec-hilight">TortoiseGit</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mt-5">
+                    <div class="card">
+                        <div class="card-img-block">
+                            <img class="card-img-top" src="assets/images/backer_city.png" alt="Backer City">
+                        </div>
+                        <div class="card-body text-muted">
+                            <h4 class="card-title">PHP Developer
+                                <span class="float-right external-link">
+                                    <a href="http://backercity.com" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </span>
+                            </h4>
+                            <p class="card-text custom-card-text">
+                                <i class="fas fa-briefcase list-icon"></i></i>BackerCity</span><br />
+                                <i class="far fa-clock list-icon"></i>Jul. 2018 - Jan. 2019 <br />
+                                <i class="fas fa-map-marker-alt list-icon"></i></i>Markham, Ontario
+                            </p>
+                            <hr class="my-4">
+                            <span class="tec-hilight">PHP</span>
+                            <span class="tec-hilight">MySQL</span>
+                            <span class="tec-hilight">BootStrap</span>
+                            <span class="tec-hilight">JavaScript</span>
+                            <span class="tec-hilight">Bitbucket</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mt-5">
+                    <div class="card">
+                        <div class="card-img-block">
+                            <img class="card-img-top" src="assets/images/kul.jpg" alt="Kul Grilles">
+                        </div>
+                        <div class="card-body text-muted">
+                            <h4 class="card-title">Shopify Developer
+                                <span class="float-right external-link">
+                                    <a href="https://www.kulgrilles.com" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </span>
+                            </h4>
+                            <p class="card-text custom-card-text">
+                                <i class="fas fa-briefcase list-icon"></i></i>Kul Grilles</span><br />
+                                <i class="far fa-clock list-icon"></i>Jan. 2017 - Apr. 2017 <br />
+                                <i class="fas fa-map-marker-alt list-icon"></i></i>Winnipeg, Manitoba
+                            </p>
+                            <hr class="my-4">
+                            <span class="tec-hilight">Shopify Liquid Templating</span>
+                            <span class="tec-hilight">Ajax / JSON</span>
+                            <span class="tec-hilight">HTML</span>
+                            <span class="tec-hilight">CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills-section" class="py-5 text-muted">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-divider"><span class="section-heading">Skills</span></h3>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img class="card-img" src="assets/images/responsive.png" alt="responsive design">
+                        <div class="card-img-overlay">
+                            <p class="card-text skills-text">Responsive, Dynamic and Optimized Performance are qualities that I strive to achieve when building web applications.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 offset-md-1 skills-set d-none d-sm-block">
+                    <div class="row my-3">
+                        <div class="col-md-4">
+                            <img class="img img-fluid mb-6" src="assets/images/html.png" alt="HTML">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img img-fluid mb-6" src="assets/images/react.png" alt="React">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img img-fluid mb-6" src="assets/images/php.png" alt="PHP">
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-md-4">
+                            <img class="img img-fluid mb-6" src="assets/images/bootstrap.png" alt="Bootstrap">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img img-fluid mb-6" src="assets/images/redux.png" alt="Redux">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img img-fluid mb-6" src="assets/images/mysql.png" alt="mySQL">
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-md-4">
+                            <img class="img img-fluid mb-6" src="assets/images/rails.png" alt="Rails">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img img-fluid mb-6" src="assets/images/git.png" alt="Github">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img img-fluid mb-6" src="assets/images/java.png" alt="Java">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Head -->
+    <section id="contact-section" class="py-5 text-light hq-bg-dark">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-center"><span class="section-heading">Get In Touch</span></h3>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-6 offset-md-3">
+                    <p class="mt-3 mb-5 text-center contact-info">
+                        I'm welcome for all your constructive feedback, improvement suggestions, remarkable ideas, fun collaboration, tech discussions.
+                    </p>
+                    <div class="row">
+                        <div class="col-4 text-center contact-icons">
+                            <a class="mb-3 contact-icon" href="mailto:sophiehqian@gmail.com" target="_blank">
+                                <i class="fas fa-envelope fa-2x"></i>
+                            </a>
+                        </div>
+                        <div class="col-4 text-center contact-icons">
+                            <a class="mb-3 contact-icon" href="https://www.linkedin.com/in/sophiehqian" target="_blank">
+                                <i class="fab fa-linkedin-in fa-2x"></i>
+                            </a>
+                        </div>
+                        <div class="col-4 text-center contact-icons">
+                            <a class="mb-3 contact-icon" href="https://github.com/sophieonce" target="_blank">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <p>Created By Hui Qian. <i class="fas fa-heart"></i> Copyright &copy; <span id="year"></span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/typeEffect.js"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script>
+        // Get the current year for the copyright
+        $('#year').text(new Date().getFullYear());
+
+        //Init Sxrollspy
+        $('body').scrollspy({
+            target: '#main-nav'
+        });
+
+        // Add smooth scrolling
+        $('#main-nav a').on('click', function(e) {
+            // Check for a hash value
+            if (this.hash !== '') {
+
+                // Prevent default behavior
+                e.preventDefault();
+
+                // Store hash
+                const hash = this.hash;
+
+                // Animate smooth scroll
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 900, function() {
+                    // Add hash to URL after scroll
+                    window.location.hash = hash;
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
