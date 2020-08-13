@@ -1,0 +1,6 @@
+{
+    "homepage": "https://sophieonce.github.io/portfolio",
+    "scripts": {
+        "deploy": "gh-pages -d dist"
+    }
+}
